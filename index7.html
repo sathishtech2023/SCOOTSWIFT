@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials</title>
+    <link rel="icon" type="image/jpg" href="assets/favicon-16x16.png">
+    <link rel="stylesheet" href="style7.css">
+</head>
+<body>
+
+    <!----/////////////////////////--Testmonials----///////////////////////-->
+    <section>
+
+        <div class="hero" id="Testmonials">
+          <h1>Testimonials</h1>
+          
+      
+        <div class="container">
+          <div class="indicater">
+            <span class="btn active"></span>
+            <span class="btn"></span>
+            <span class="btn"></span>
+            <span class="btn"></span>
+      
+          </div>
+          <div class="testimonial">
+      
+          <div class="slide_row" id="slide">
+            <div class="slide_col">
+              <div class="user_text">
+                <p>I've been using"ScootSwift-website"for several months now, and I couldn't be happier with the service. The website is incredibly easy to navigate, making it simple to find restaurants in my area and place orders quickly.</p>
+                <h3>Mihir</h3>
+                <p id="p2">Salem</p>
+              </div>
+              <div class="user_img">
+                <img src="assets/user1.jpg" alt="">
+      
+              </div>
+            </div>
+          
+      
+          <div class="slide_col">
+            <div class="user_text">
+              <p>One of the things I appreciate most about [ScootSwift-website] is the reliability of their delivery service. I've never experienced any delays or issues with my orders arriving late.my food arrives hot and fresh every time.</p>
+              <h3>Zara</h3>
+              <p id="p2">Coimbatore</p>
+            </div>
+            <div class="user_img">
+              <img src="assets/user2.jpg" alt="">
+      
+            </div>
+          </div>
+      
+          <div class="slide_col">
+            <div class="user_text">
+              <p>Another standout feature of ScootSwift-website is the wide variety of restaurants available to choose from. Whether I'm in the mood for pizza, sushi, or Thai food, I can always find something delicious on the platform.
+  
+              </p>
+              <h3>John</h3>
+              <p id="p2">Chennai</p>
+            </div>
+            <div class="user_img">
+              <img src="assets/user3.jpg" alt="">
+      
+            </div>
+          </div>
+      
+      
+          <div class="slide_col">
+            <div class="user_text">
+              <p>Overall, I highly recommend ScootSwift-website to anyone looking for a convenient and reliable way to order food online. With its user-friendly interface and excellent customer service.</p>
+              <h3>Meera & Sophia.</h3>
+              <p id="p2">Ooty</p>
+            </div>
+            <div class="user_img">
+              <img src="assets/user5.jpg" alt="">
+           </div>
+          </div>
+        </div>
+        </div>
+       </div>
+    </section>
+
+    <script>
+
+        // ----------------------customer reviews testimonials--------------------------------------// 
+ var btn =document.getElementsByClassName('btn');
+ var slide=document.getElementById('slide');
+
+ btn[0].onclick= function(){
+  slide.style.transform="translateX(0px)"
+  for (i=0;i<4;i++){
+    btn[i].classList.remove("active");
+  }
+  this.classList.add("active");
+ }
+
+ btn[1].onclick= function(){
+  slide.style.transform="translateX(-800px)"
+  for (i=0;i<4;i++){
+    btn[i].classList.remove("active");
+  }
+  this.classList.add("active");
+ }
+
+ btn[2].onclick= function(){
+  slide.style.transform="translateX(-1600px)"
+  for (i=0;i<4;i++){
+    btn[i].classList.remove("active");
+  }
+  this.classList.add("active");
+ }
+
+ btn[3].onclick= function(){
+  slide.style.transform="translateX(-2400px)"
+  for (i=0;i<4;i++){
+    btn[i].classList.remove("active");
+  }
+  this.classList.add("active");
+ }
+    </script>
+    
+</body>
+</html>

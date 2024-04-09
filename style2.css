@@ -1,0 +1,491 @@
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+
+    background-color: white;
+
+
+}
+header{
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 99;
+    background-color:darkslategray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  
+
+}
+.nav{
+
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+   
+}
+.logo{
+
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+}
+.box{
+
+    color:white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    right: 20px;
+    
+}
+.cart-count{
+
+    position: absolute;
+    background-color: red;
+    top: -7px;
+    right: 0;
+    padding: 3px;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    z-index: 99;
+}
+#cart-icon{
+    
+    font-size: 25px;
+    cursor: pointer;
+    padding-top: 10px;
+}
+img{
+
+    width: 100%;
+}
+
+.container{
+
+    max-width: 1200px;
+    padding: 4rem;
+    margin: auto;
+    width: 100%;
+}
+h2.title{
+
+    font-size:20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: black;
+    /* border: 1px solid red; */
+    font-family: 'Jost', sans-serif;
+    position: relative;
+
+}
+
+
+/* .container-title2{
+
+    border: 1px solid red;
+    margin-bottom: 10px;
+} */
+
+.shop-content{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+
+
+}
+.food-box{
+    position: relative;
+    background-color:beige;
+    padding: 10px;
+    box-shadow:0 3px 8px rgb(100, 99, 99) ;
+    border-radius: 10px;
+}
+.pic{
+
+    overflow: hidden;
+}
+.pic img{
+
+    transition: 0.7s;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.pic:hover img{
+
+    transform: scale(1.5);
+}
+/* .food-img{
+
+    transition: 0.8s;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+} */
+.food-title{
+
+    font-size: 20px;
+    font-weight: 600;
+}
+.food-price{
+
+    font-size: 15px;
+    color:green;
+    font-weight: 600;
+
+}
+.add-cart{
+
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-size: 20px;
+    padding: 10px;
+    background-color:darkslategray;
+    color: white;
+    cursor: pointer;
+    
+}
+.add-cart:hover{
+
+    background-color: white;
+    color: darkslategray;
+}
+.cart{
+
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 400px;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px;
+    background-color:cadetblue;
+    box-shadow: 0 1px 4px rgb(123, 122, 122);
+    z-index: 100;
+
+}
+.cart-active{
+
+    right: 0;
+    transition: 0.7s;
+}
+.cart-title{
+
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: -10px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1rem;
+    padding-bottom: 10px ;
+}
+.cart-box{
+
+    display: grid;
+    grid-template-columns: 32% 50% 10%;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    border-bottom: 1px solid rgb(95, 94, 94);
+    padding-bottom: 10px;
+}
+.cart-img{
+
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    /* border: 2px solid rgb(108, 105, 105); */
+    padding: 5px;
+
+}
+.detail-box{
+
+    display: grid;
+    row-gap: 0.5rem;
+}
+.price-box{
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.cart-food-title{
+
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500px;
+}
+.cart-price{
+
+    font-weight: 500px;
+
+}
+.cart-quantity{
+
+    border: 1px solid rgb(78, 76, 76);
+    outline: none;
+    width: 2.4rem;
+    text-align: center;
+    font-size: 1rem;
+}
+.cart-remove{
+
+    font-size: 24px;
+    color: red;
+    cursor: pointer;
+}
+.total{
+
+
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+
+}
+.total-title{
+
+    font-size: 1rem;
+    font-weight: 600;
+}
+.total-price{
+    margin-left: 0.5rem;
+    font-size: 1rem;
+}
+.btn-buy{
+
+    padding: 8px 14px;
+    background-color:black;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+#cart-close{
+
+position: absolute;
+top: 0;
+right: 0;
+padding: 10px;
+font-size: 25px;
+cursor: pointer;
+
+}
+/* .............media query for mobile.......... */
+
+@media (max-width:600px){
+
+    header{
+        width: 600px;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 99;
+        background-color:darkslategray;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+    }
+    .logo{
+
+        font-size: 20px;
+        font-weight: 500;
+        text-decoration: none;
+        text-transform: uppercase;
+        color:white;
+        position:relative;
+        left: 20px;
+    }
+
+    .shop-content{
+
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 1.5rem;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid red; */
+        position: relative;
+        top: 30px;
+    
+    
+    }
+
+    .container{
+
+        max-width: 1200px;
+        padding: 4rem;
+        margin: auto;
+        width: 600px;
+        /* border: 1px solid red; */
+    }
+
+    h2.title{
+
+        font-size:24px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        color: black;
+        /* border: 1px solid red; */
+        font-family: 'Jost', sans-serif;
+        position: relative;
+        top: 20px;
+        /* border: 1px solid red; */
+    
+    
+    }
+    .food-box{
+        position: relative;
+        background-color:beige;
+        padding: 10px;
+        box-shadow:0 3px 8px rgb(100, 99, 99) ;
+        border-radius: 10px;
+        /* border: 1px solid rgb(64, 0, 255); */
+    }
+    .pic{
+    
+        overflow: hidden;
+    }
+    .pic img{
+        /* border: 1px solid red; */
+        transition: 0.7s;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+    .pic:hover img{
+    
+        transform: scale(1.5);
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+
+    header{
+        width: 768px;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 99;
+        background-color:darkslategray;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 70px;
+    }
+    .logo{
+
+        font-size: 25px;
+        font-weight: 500;
+        text-decoration: none;
+        text-transform: uppercase;
+        color:white;
+        position:relative;
+        left: 20px;
+    }
+
+    #cart-icon{
+
+        font-size: 35px;
+        padding-top: 5px;
+    }
+
+    .shop-content{
+
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 40px;
+        /* justify-content: center;
+        align-items: center; */
+        /* border: 1px solid red; */
+        position: relative;
+        top: 30px;
+    
+    
+    }
+
+    .container{
+
+        max-width: 1200px;
+        padding: 4rem;
+        margin: auto;
+        width: 600px;
+        /* border: 1px solid red; */
+        width: 768px;
+    }
+
+    h2.title{
+
+        font-size:27px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        color: black;
+        font-family: 'Jost', sans-serif;
+        position: relative;
+        top: 20px;
+        /* border: 1px solid red; */
+    
+    
+    }
+    .food-box{
+        position: relative;
+        background-color:beige;
+        padding: 10px;
+        box-shadow:0 3px 8px rgb(100, 99, 99) ;
+        border-radius: 10px;
+        
+        
+        
+    }
+    .pic{
+    
+        overflow: hidden;
+    }
+    .pic img{
+        /* border: 1px solid red; */
+        transition: 0.7s;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+    .pic:hover img{
+    
+        transform: scale(1.5);
+    }
+
+
+
+
+}

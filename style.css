@@ -1,0 +1,4442 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+
+    overflow-x: hidden;
+}
+
+.container {
+
+    width: auto;
+    height: 700px;
+    background-color: rgb(255, 242, 217);
+}
+
+.navbarwin {
+
+    width: 92%;
+    height: 60px;
+    position: absolute;
+    top: 10px;
+}
+
+.winimage {
+
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -10px;
+}
+
+.item {
+    width: 800px;
+    height: 30px;
+    /* border: 1px solid red; */
+    margin-left: 70px;
+    margin-top: 15px;
+}
+
+.item ul {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+
+}
+
+.item ul li {
+
+    list-style: none;
+}
+
+.item ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding: 0px 40px;
+}
+
+.item ul li a:hover {
+
+    color: rgb(91, 209, 144);
+}
+
+.loginbtn {
+
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: -38px;
+    left: 960px;
+    /* border: 1px solid black; */
+}
+
+#loginbtn-1 {
+
+    width: 80px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(164, 167, 167);
+    background: none;
+    border: none;
+}
+
+#loginbtn-2 {
+
+    width: 90px;
+    height: 38px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+}
+
+#loginbtn-2:hover {
+
+    background-color: rgb(91, 209, 144);
+}
+.side-barj{
+
+    display: none;
+}
+
+
+/* ....................navbar.......................... */
+
+.div1-landing-pg {
+    width: 97%;
+    height: 100%;
+    position: absolute;
+    top: 80px;
+    /* border: 2px solid red; */
+}
+
+.landingimg {
+
+    width: 630px;
+    height: 550px;
+    position: absolute;
+    left: 560px;
+    filter: contrast(120%);
+    animation-name: deliveryboy;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    transition: 0.3 ease;
+}
+
+@keyframes deliveryboy {
+
+    0% {
+        width: 630px;
+        height: 550px;
+        position: absolute;
+        left: 1120px;
+        filter: blur(100%);
+    }
+
+    50% {
+        width: 630px;
+        height: 550px;
+        position: absolute;
+        left: 360px;
+        transform: rotate(30deg);
+        filter: contrast(120%);
+    }
+
+    70% {
+        width: 630px;
+        height: 550px;
+        position: absolute;
+        transform: rotate(0deg);
+        left: 560px;
+        filter: contrast(120%);
+    }
+
+    100% {
+        width: 630px;
+        height: 550px;
+        position: absolute;
+        left: 560px;
+        filter: contrast(120%);
+    }
+
+}
+
+
+
+.titlebox {
+    width: 530px;
+    height: 170px;
+    /* border: 1px solid red; */
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+.titlebox h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-weight: 900;
+    padding-left: 30px;
+}
+
+.h1-2step {
+
+    padding-top: 40px;
+    transition: 0.8s;
+}
+
+.titlebox h1:hover {
+
+    color: rgb(91, 209, 144);
+
+}
+
+.titlebox h2 {
+
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: rgb(113, 112, 112);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.titlebox-2 {
+    width: 500px;
+    height: 150px;
+    margin-top: 150px;
+}
+
+form {
+    width: 400px;
+    height: 53px;
+    position: relative;
+    top: 120px;
+    left: 60px;
+    display: flex;
+
+
+}
+
+form input {
+    flex: 1;
+    border: none;
+    outline: none;
+}
+
+form button {
+
+    background-color: black;
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+form .fa-solid {
+
+    align-items: center;
+    padding: 15px 20px;
+    background-color: white;
+    border: 5px 0px 0px 5px;
+}
+
+form button .fa-solid {
+
+    background-color: black;
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    padding: 10px 10px 13px 10px
+}
+
+.titlebox-2 {
+    width: 500px;
+    height: 150px;
+    margin-left: 70px;
+    margin-top: 150px;
+    /* border: 1px solid black; */
+}
+
+.titlebox-2 p {
+
+    font-size: 15px;
+    color: rgb(113, 112, 112);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+
+.apple {
+
+    width: 175px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 40px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+}
+
+#applep {
+
+    font-size: 13px;
+    color: rgb(113, 112, 112);
+    font-weight: 600;
+    margin-left: 22px;
+    margin-top: 7px;
+}
+
+.apple i {
+
+    font-size: 35px;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+.apple a{
+
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.google {
+
+    width: 175px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 200px;
+    margin-top: -62px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+}
+
+#googlep {
+
+    font-size: 13px;
+    color: rgb(113, 112, 112);
+    font-weight: 600;
+    margin-left: 17px;
+    margin-top: 7px;
+}
+
+.google i {
+
+    font-size: 30px;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+.google a{
+
+    list-style: none;
+    text-decoration: none;
+
+}
+
+/* ............................media-query.....page-1 ............... */
+
+
+@media (max-width:600px) {
+
+    .page-1 {
+
+        width: 400px;
+        height: auto;
+
+    }
+
+    .container {
+
+        width: 400px;
+        height: 500px;
+        background-color: rgb(255, 242, 217);
+    }
+
+    .navbarwin {
+
+        width: 80%;
+        height: 60px;
+        position: absolute;
+        top: 0px;
+
+    }
+
+    .winimage {
+
+        width: 80px;
+        height: 75px;
+        margin-left: 10px;
+    }
+
+    .item {
+        width: 800px;
+        height: 30px;
+        margin-left: 70px;
+        margin-top: 15px;
+        display: none;
+    }
+
+    .loginbtn {
+
+        width: 170px;
+        height: 40px;
+        position: relative;
+        top: 60px;
+        left: 80px;
+        display: none;
+        /* border: 1px solid black; */
+    }
+
+    #loginbtn-1 {
+
+        width: 70px;
+        height: 30px;
+        font-size: 12px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(164, 167, 167);
+        background: none;
+        border: none;
+        margin-top: 7px;
+        /* border: 1px solid red; */
+    }
+
+    #loginbtn-2 {
+
+        width: 80px;
+        height: 30px;
+        font-size: 13px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 25px;
+        border: none;
+        background-color: black;
+        color: white;
+        margin-left: 5px;
+
+    }
+    .side-barj{
+
+        display: block;
+    }
+    .side-bar{
+        width:270px;
+        height:100vh;
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        position: fixed;
+        top: 0;
+        right: 0;
+        overflow-y: auto;
+        transition: 0.6s ease;
+        transition-property: right;
+        right: -300px;
+        z-index: 10;
+        display: block;
+        border: 2px solid black;
+    }
+     .side-bar.active{
+        right: 0px;
+    }
+    .open-icon{
+
+        position: absolute;
+        right: 0px;
+        font-size: 37px;
+        cursor: pointer;
+        margin: 10px;
+    }
+    .close-icon{
+
+        color:rgb(12, 12, 12);
+        font-size: 35px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 15px;
+        cursor: pointer;
+    }
+    .nav-list{
+        width: 100%;
+        height: 300px;
+        /* background-color: darkslategray; */
+        position: absolute;
+        top: 60px;
+    
+
+    }
+    .nav-item a{
+
+        color: rgb(18, 17, 17);
+        font-size: 20px;
+        font-weight: 700;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        padding-left: 80px;
+        position: relative;
+        top: 30px;
+
+    }
+    #loginbtn-2{
+
+        background-color: rgb(22, 22, 22);
+        color: rgb(248, 244, 244);
+        position: absolute;
+        top: 30px;
+    }
+    .div1-landing-pg {
+        width: 95%;
+        height: 50%;
+        position: absolute;
+        top: 80px;
+        left: 20px;
+    }
+
+    .landingimg {
+
+        width: 650px;
+        height: 550px;
+        position: absolute;
+        left: 560px;
+        filter: contrast(120%);
+        display: none;
+    }
+
+    .titlebox {
+        width: 320px;
+        height: 150px;
+        position: relative;
+        top: 40px;
+        left: 10px;
+       
+    }
+
+    .titlebox h1 {
+        width: 260px;
+        height: 70px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 22px;
+        font-weight: 600;
+        padding-left: 50px;
+      
+    }
+
+    #h1-2step {
+        position: absolute;
+        top: 30px;
+        left: 40px;
+        font-size: 22px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+  
+    }
+
+    .titlebox h2 {
+
+        font-size: 13px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        color: rgb(113, 112, 112);
+        padding-top: 5px;
+        padding-left: 15px;
+        height: 60px;
+      
+      
+
+    }
+
+    #h2-step2 {
+
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        top: 5px;
+        left: 60px;
+     
+      
+
+    }
+
+    .titlebox-2 {
+        width: 500px;
+        height: 150px;
+        margin-top: 150px;
+    }
+
+    form {
+        width: 300px;
+        height: 50px;
+        position: relative;
+        top: 30px;
+        left: 15px;
+        display: flex;
+    }
+
+    form input {
+        flex: 1;
+        border: none;
+        outline: none;
+    }
+
+    form button {
+
+        background-color: black;
+        padding: 20px;
+        color: white;
+        cursor: pointer;
+        font-size: 20px;
+        border-radius: 0px 5px 5px 0px;
+    }
+
+    form .fa-solid {
+
+        align-items: center;
+        padding: 15px 20px;
+        background-color: white;
+        border: 5px 0px 0px 5px;
+    }
+
+    form button .fa-solid {
+
+        background-color: black;
+        position: absolute;
+        top: 2px;
+        right: 5px;
+        padding: 10px 10px 13px 10px
+    }
+
+    .titlebox-2 {
+        width: 340px;
+        height: 120px;
+        margin-left: 10px;
+        margin-top: 60px;
+    }
+
+    .titlebox-2 p {
+
+        font-size: 17px;
+        color: rgb(113, 112, 112);
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        padding-left: 10px;
+        
+
+    }
+
+    .apple {
+
+        width: 145px;
+        height: 60px;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: 8px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    #applep {
+
+        font-size: 13px;
+        padding-left: 10px;
+        color: rgb(113, 112, 112);
+        font-weight: 600;
+        margin-left: 1px;
+        margin-top: 7px;
+       
+
+    }
+
+    .apple i {
+
+        font-size: 35px;
+        margin-left: 8px;
+        margin-top: 10px;
+    }
+
+    .google {
+
+        width: 145px;
+        height: 60px;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-left: 175px;
+        margin-top: -61px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #googlep {
+
+        font-size: 13px;
+        color: rgb(113, 112, 112);
+        font-weight: 600;
+        margin-left: 3px;
+        margin-top: 7px;
+        padding-left: 2px;
+    }
+
+    .google i {
+
+        font-size: 35px;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .Restaurants-pg {
+        display: none;
+    }
+
+
+}
+/* ......................media query for ipad................ */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+    .page-1 {
+
+        width: 766px;
+        height: auto;
+        /* border: 1px solid red; */
+
+    }
+
+    .container {
+
+        width: 765px;
+        height: 500px;
+        /* border: 1px solid red; */
+        background-color: rgb(255, 242, 217);
+    }
+
+    .navbarwin {
+
+        width: 100%;
+        height: 60px;
+        position: absolute;
+        top: 0px;
+       
+
+    }
+
+    .winimage {
+
+        width: 80px;
+        height: 75px;
+        margin-left: 10px;
+    }
+
+    .item {
+        width: 800px;
+        height: 30px;
+        margin-left: 70px;
+        margin-top: 15px;
+        display: none;
+    }
+
+    .loginbtn {
+
+        width: 170px;
+        height: 40px;
+        position: relative;
+        top: 60px;
+        left: 80px;
+        display: none;
+        /* border: 1px solid black; */
+    }
+
+    #loginbtn-1 {
+
+        width: 70px;
+        height: 30px;
+        font-size: 12px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(164, 167, 167);
+        background: none;
+        border: none;
+        margin-top: 7px;
+        /* border: 1px solid red; */
+    }
+
+    #loginbtn-2 {
+
+        width: 80px;
+        height: 30px;
+        font-size: 13px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 25px;
+        border: none;
+        background-color: black;
+        color: white;
+        margin-left: 5px;
+
+    }
+    .side-barj{
+
+        display: none;
+    }
+
+    .div1-landing-pg {
+        width: 760px;
+        height: auto;
+        position: absolute;
+        top: 80px;
+        left: 0px;
+      
+        
+
+    }
+
+    .landingimg {
+
+        width: 350px;
+        height: 300px;
+        position: absolute;
+        left: 410px;
+        filter: contrast(120%);
+        animation-name: deliveryboy;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        transition: 0.3 ease;
+    }
+    
+    @keyframes deliveryboy {
+    
+        0% {
+            width: 350px;
+            height: 300px;
+            position: absolute;
+            left: 1120px;
+            filter: blur(100%);
+        }
+    
+        50% {
+            width: 350px;
+            height: 300px;
+            position: absolute;
+            left: 360px;
+            transform: rotate(30deg);
+            filter: contrast(120%);
+        }
+    
+        70% {
+            width: 350px;
+            height: 300px;
+            position: absolute;
+            transform: rotate(0deg);
+            left: 420px;
+            filter: contrast(120%);
+        }
+    
+        100% {
+            width: 350px;
+            height: 300px;
+            position: absolute;
+            left: 420px;
+            filter: contrast(120%);
+        }
+    
+    }
+
+    .titlebox {
+        width: 360px;
+        height: 150px;
+        position: relative;
+        top: 40px;
+        left: 20px;
+       
+       
+    }
+
+    .titlebox h1 {
+        width: 260px;
+        height: 70px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+        padding-left: 50px;
+        /* border: 1px solid black; */
+    }
+
+    #h1-2step {
+        position: absolute;
+        top: 30px;
+        left: 50px;
+        font-size: 22px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        
+  
+    }
+
+    .titlebox h2 {
+
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        color: rgb(113, 112, 112);
+        padding-top: 5px;
+        padding-left: 10px;
+        height: 60px;
+        /* border: 1px solid red; */
+    }
+
+    #h2-step2 {
+
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        top: 5px;
+        left: 60px;
+    }
+
+    .titlebox-2 {
+        width: 500px;
+        height: 150px;
+        margin-top: 150px;
+        /* border: 1px solid red; */
+    }
+
+    form {
+        width: 360px;
+        height: 50px;
+        position: relative;
+        top: 30px;
+        left: 20px;
+        display: flex;
+     
+    }
+
+    form input {
+        flex: 1;
+        border: none;
+        outline: none;
+    }
+
+    form button {
+
+        background-color: black;
+        padding: 20px;
+        color: white;
+        cursor: pointer;
+        font-size: 20px;
+        border-radius: 0px 5px 5px 0px;
+    }
+
+    form .fa-solid {
+
+        align-items: center;
+        padding: 15px 20px;
+        background-color: white;
+        border: 5px 0px 0px 5px;
+    }
+
+    form button .fa-solid {
+
+        background-color: black;
+        position: absolute;
+        top: 2px;
+        right: 5px;
+        padding: 10px 10px 13px 10px
+    }
+
+    .titlebox-2 {
+        width: 370px;
+        height: 120px;
+        margin-left: 20px;
+        margin-top: 70px;
+       
+    }
+
+    .titlebox-2 p {
+
+        font-size: 17px;
+        color: rgb(113, 112, 112);
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        padding-left: 10px;
+        
+
+    }
+
+    .apple {
+
+        width: 145px;
+        height: 60px;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: 8px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    #applep {
+
+        font-size: 13px;
+        padding-left: 10px;
+        color: rgb(113, 112, 112);
+        font-weight: 600;
+        margin-left: 1px;
+        margin-top: 7px;
+       
+
+    }
+
+    .apple i {
+
+        font-size: 35px;
+        margin-left: 8px;
+        margin-top: 10px;
+    }
+
+    .google {
+
+        width: 145px;
+        height: 60px;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-left: 175px;
+        margin-top: -61px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #googlep {
+
+        font-size: 13px;
+        color: rgb(113, 112, 112);
+        font-weight: 600;
+        margin-left: 3px;
+        margin-top: 7px;
+        padding-left: 2px;
+    }
+
+    .google i {
+
+        font-size: 35px;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .Restaurants-pg {
+        display: none;
+    }
+
+
+
+
+}
+
+
+
+
+/* .........................restaurants................... */
+
+.Restaurants-pg {
+
+    width: auto;
+    height: 880px;
+    background-color: white;
+    display: block;
+}
+
+.pg2-title {
+    width: auto;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rest-title {
+
+    font-family: 'Jost', sans-serif;
+
+}
+
+.pg2-title p {
+
+    color: black;
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.item-one {
+    height: 350px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 45px;
+    /* justify-content: space-evenly; */
+
+}
+
+.item-one img {
+
+    width: 350px;
+    height: 200px;
+    margin-top: 15px;
+    transition: 0.8s;
+
+}
+
+.item-one img:hover {
+
+    margin-top: 0px;
+
+}
+
+.pro1 {
+    height: 330px;
+
+}
+
+.contactboxi1 {
+
+
+    height: 50px;
+    margin-top: 20px;
+}
+
+.contactboxi1 p {
+
+    font-size: 20px;
+    font-weight: 700px;
+    font-family: 'Jost', sans-serif;
+
+}
+
+.pro2 {
+
+    height: 330px;
+
+
+}
+
+.contactboxi2 {
+    margin-top: 30px;
+    height: 50px;
+
+}
+
+.contactboxi2 p {
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700px;
+}
+
+.item-two img {
+
+    width: 350px;
+    height: 200px;
+    margin-top: 15px;
+    transition: 0.8s;
+}
+
+.item-two img:hover {
+
+    margin-top: 0px;
+
+}
+
+.discoverbtn {
+    position: absolute;
+    top: 1500px;
+    right: 570px;
+}
+
+.discoverbtn button {
+
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(42, 189, 152);
+    cursor: pointer;
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    position: relative;
+    left: -10px;
+
+}
+
+.discoverbtn button:hover {
+    font-size: 15px;
+    color: white;
+    background-color: black;
+}
+.discoverbtn button i{
+
+    position: relative;
+    top: 0px;
+}
+.discoverbtn button i:hover{
+
+    
+    position: relative;
+    top: -17px;
+    transition: 3s;
+    
+}
+
+
+/* ..........................media query......Restaurants-pg................... */
+
+@media (max-width:600px) {
+
+
+
+    .Restaurants-pg {
+
+        width: 400px;
+        height: 2050px;
+        background-color: white;
+      
+
+    }
+
+    .pg2-title {
+        width: 300px;
+        height: 70px;
+        display: flex;
+        position: relative;
+        top: 40px;
+        left: 40px;
+       
+
+    }
+
+    .pg2-title p {
+
+        color: black;
+        font-family: 'Jost', sans-serif;
+        font-size: 25px;
+        font-weight: 800;
+        padding-left: 40px;
+    }
+
+    #rest-title {
+
+        font-family: 'Jost', sans-serif;
+        position: relative;
+        top: 3px;
+        left: 30px;
+        font-size: 24px;
+
+    }
+
+    .item-one {
+        width: 395px;
+        height: 2000px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 0px;
+        position: relative;
+        top: 60px;
+       
+       
+
+    }
+
+    .item-one img {
+
+        width: 370px;
+        height: 180px;
+        margin-top: 15px;
+        margin-left: 15px;
+        transition: 0.8s;
+
+
+    }
+
+    .item-one img:hover {
+
+        margin-top: 0px;
+
+    }
+
+    .contactboxi1 p {
+
+        font-size: 20px;
+        font-weight: 700px;
+        font-family: 'Jost', sans-serif;
+        margin-left: 5px;
+
+    }
+
+    .contactboxi1 {
+        width: 200px;
+        height: 50px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+
+    /* .item-two {
+        width: 400px;
+        height:1000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: relative;
+        top: 70px;
+    } */
+
+    .item-two img {
+
+        width: 370px;
+        height: 200px;
+        margin-top: 15px;
+        margin-left: 10px;
+        transition: 0.8s;
+    }
+
+    .item-two img:hover {
+
+        margin-top: 0px;
+
+    }
+
+    .contactboxi2 {
+        width: 200px;
+        height: 50px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .contactboxi2 p {
+
+        font-size: 20px;
+        font-weight: 700px;
+        font-family: 'Jost', sans-serif;
+    }
+
+    .discoverbtn {
+        position: absolute;
+        top: 994px;
+        right: 140px;
+
+
+
+
+    }
+
+    .discoverbtn button {
+
+        padding: 18px 20px;
+        border-radius: 30px;
+        border: none;
+        background-color: rgb(42, 189, 152);
+        box-shadow: 0px 3px 6px 0px rgb(167, 167, 168);
+        cursor: pointer;
+        color: white;
+        font-family: 'Jost', sans-serif;
+        font-size: 15px;
+        position: relative;
+        top: 980px;
+        left: 5px;
+       
+
+    }
+    .discoverbtn button:hover {
+        font-size: 15px;
+        color: white;
+        background-color: black;
+    }
+    .discoverbtn button i{
+    
+        position: relative;
+        top: 0px;
+    }
+    .discoverbtn button i:hover{
+    
+        
+        position: relative;
+        top: -17px;
+        transition: 3s;
+        
+    }
+
+
+}
+/* .................media query for ipad................... */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+    .Restaurants-pg {
+
+        width: 100%;
+        height: 1140px;
+        background-color: white;
+        /* border: 1px solid blue; */
+      
+
+    }
+
+    .pg2-title {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        position: relative;
+        top: 40px;
+        left: 0px;
+       
+       
+
+    }
+
+    .pg2-title p {
+
+        color: black;
+        font-family: 'Jost', sans-serif;
+        font-size: 30px;
+        font-weight: 800;
+        padding-left: 0px;
+    }
+
+    #rest-title {
+
+        font-family: 'Jost', sans-serif;
+        /* border: 1px solid red; */
+        font-size: 30px;
+
+    }
+
+    .item-one {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 0px;
+        position: relative;
+        top: 60px;
+        /* border: 1px solid green; */
+       
+
+    }
+
+    .item-one img {
+
+        width: 360px;
+        height: 200px;
+        margin-top: 15px;
+        margin-left: 10px;
+        transition: 0.8s;
+       
+
+
+    }
+
+    .item-one img:hover {
+
+        margin-top: 0px;
+
+    }
+
+    .contactboxi1 p {
+        width: 270px;
+        font-size: 25px;
+        font-weight: 700px;
+        font-family: 'Jost', sans-serif;
+        margin-left: 5px;
+      
+
+    }
+
+    .contactboxi1 {
+        width: 200px;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
+       
+    }
+  
+    .item-two img {
+
+        width: 360px;
+        height: 200px;
+        margin-top: 15px;
+        margin-left: 10px;
+        transition: 0.8s;
+    }
+
+    .item-two img:hover {
+
+        margin-top: 0px;
+
+    }
+
+
+    .contactboxi2 {
+        width: 200px;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
+       
+    }
+
+    .contactboxi2 p {
+
+        width: 270px;
+        font-size: 25px;
+        font-weight: 700px;
+        font-family: 'Jost', sans-serif;
+        margin-left: 5px;
+        
+    }
+
+    .discoverbtn {
+        position: absolute;
+        top:400px;
+        right: 120px;
+    }
+
+    .discoverbtn button {
+
+        padding: 20px 25px;
+        border-radius: 40px;
+        border: none;
+        background-color: rgb(42, 189, 152);
+        box-shadow: 0px 3px 6px 0px rgb(167, 167, 168);
+        cursor: pointer;
+        color: white;
+        font-family: 'Jost', sans-serif;
+        font-size: 20px;
+        position: relative;
+        top: 590px;
+        left: -180px;
+
+    }
+    .discoverbtn button:hover {
+        font-size: 15px;
+        color: white;
+        background-color: black;
+    }
+    .discoverbtn button i{
+    
+        position: relative;
+        top: 0px;
+    }
+    .discoverbtn button i:hover{
+    
+        
+        position: relative;
+        top: -17px;
+        transition: 3s;
+        
+    }
+}
+
+
+
+
+/* ........................foodcategories...................... */
+
+.foodcategories {
+
+    width: 100%;
+    height: 900px;
+    background-color: white;
+}
+
+.header {
+
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 80px;
+    right: 15px;
+    /* border: 1px solid red; */
+}
+
+.header p {
+
+    font-size: 34px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 430px;
+}
+
+.fooditems {
+    width: 93%;
+    height: 50px;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 10px;
+    position: relative;
+    top: 130px;
+
+
+}
+
+.food {
+    width: 120px;
+    height: 50px;
+    border-radius: 30px;
+    gap: 10px;
+    background-color: rgb(235, 237, 237);
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    transition: 0.6s;
+
+}
+
+.food:hover {
+
+    color: white;
+    background-color: rgb(42, 189, 152);
+}
+
+.foodcate {
+
+    width: 85%;
+    height: 50px;
+    margin-left: 90px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 10px;
+    position: relative;
+    top: 140px;
+}
+
+.food2 {
+    width: 120px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(235, 237, 237);
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    transition: 0.6s;
+
+
+
+
+}
+
+.food2:hover {
+
+    color: white;
+    background-color: rgb(42, 189, 152);
+}
+
+.ourworksfood {
+    width: 450px;
+    height: 50px;
+    position: relative;
+    top: 200px;
+    left: 445px;
+    font-size: 34px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    /* border: 1px solid red; */
+}
+
+.workflowimgbox {
+
+    width: 98%;
+    height: 450px;
+    position: relative;
+    top: 230px;
+    left: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.step1process {
+    margin-top: 10px;
+}
+
+.step1process img {
+
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 60px;
+    animation-name: step1img;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transition: 0.8s;
+    /* border: 1px solid red; */
+
+
+}
+
+@keyframes step1img {
+
+    0% {
+        width: 250px;
+        height: 250px;
+        position: relative;
+        top: 0px;
+        left: 60px;
+        animation-name: step1img;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+
+    }
+
+    50% {
+        width: 250px;
+        height: 250px;
+        position: relative;
+        top: -20px;
+        left: 60px;
+        animation-name: step1img;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+
+    }
+
+    70% {
+        width: 250px;
+        height: 250px;
+        position: relative;
+        top: -20px;
+        left: 60px;
+        animation-name: step1img;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+
+    }
+
+    100% {
+
+        width: 250px;
+        height: 250px;
+        top: 0px;
+        position: relative;
+        left: 60px;
+        animation-name: step1img;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+
+
+    }
+}
+
+.step2process img {
+
+    width: 230px;
+    height: 230px;
+    position: relative;
+    left: 90px;
+    animation-name: step2img;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transition: 0.8s;
+    /* border: 1px solid red; */
+
+}
+
+@keyframes step2img {
+
+    0% {
+        width: 250px;
+        height: 250px;
+        position: relative;
+        top: 0px;
+        left: 60px;
+        animation-name: step1img;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+
+    }
+
+    50% {
+        width: 250px;
+        height: 250px;
+        position: relative;
+        top: -20px;
+        left: 60px;
+        animation-name: step1img;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+
+    }
+
+    70% {
+        width: 250px;
+        height: 250px;
+        position: relative;
+        top: -20px;
+        left: 60px;
+        animation-name: step1img;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+
+    }
+
+    100% {
+
+        width: 250px;
+        height: 250px;
+        top: 0px;
+        position: relative;
+        left: 60px;
+        animation-name: step1img;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+
+
+    }
+}
+
+.step3process img {
+
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 60px;
+    left: 130px;
+    animation-name: step3img;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transition: 0.8s;
+    /* border: 1px solid red; */
+    margin-top: -25px;
+
+}
+
+@keyframes step3img {
+
+    0% {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: 60px;
+        left: 130px;
+        animation-name: step1img;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        margin-top: -25px;
+
+
+    }
+
+    50% {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: 30px;
+        left: 130px;
+        animation-name: step1img;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        margin-top: -25px;
+
+    }
+
+    70% {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: 30px;
+        left: 130px;
+        animation-name: step1img;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        margin-top: -25px;
+
+    }
+
+    100% {
+
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: 60px;
+        left: 130px;
+        animation-name: step1img;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        margin-top: -25px;
+
+
+    }
+}
+
+.processcontentbox1 {
+
+    width: 300px;
+    height: 190px;
+    position: relative;
+    left: 40px;
+}
+
+.processcontentbox1 p {
+    color: black;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    position: relative;
+    left: 30px;
+}
+
+#processline2 {
+    width: auto;
+    height: 80px;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    top: 13px;
+    left: 0px;
+
+}
+
+#line2-in-process {
+
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 10px;
+    left: 7px;
+}
+
+.processcontentbox1 button {
+
+    padding: 10px 15px;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(42, 189, 152);
+    border: none;
+    background-color: white;
+    font-family: 'Jost', sans-serif;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    cursor: pointer;
+}
+
+.processcontentbox1 button:hover {
+
+    color: silver;
+
+}
+
+
+.processcontentbox2 {
+
+    width: 300px;
+    height: 190px;
+    position: relative;
+    top: 10px;
+    left: 60px;
+}
+
+.processcontentbox2 p {
+    color: black;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    position: relative;
+    left: 0px;
+    padding-left: 40px;
+
+}
+
+#process2line2 {
+    width: auto;
+    height: 80px;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    top: 15px;
+    left: 0;
+    padding-left: 10px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#line2-in-process2 {
+
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 10px;
+    left: 7px;
+}
+
+.processcontentbox2 button {
+
+    padding: 10px 15px;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(42, 189, 152);
+    border: none;
+    background-color: white;
+    font-family: 'Jost', sans-serif;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    cursor: pointer;
+}
+
+.processcontentbox2 button:hover {
+
+    color: silver;
+
+}
+
+.processcontent2 {
+
+    width: 300px;
+    height: 190px;
+    position: relative;
+    left: 60px;
+}
+
+.processcontentbox3 {
+
+    width: 300px;
+    height: 190px;
+    position: relative;
+    top: 75px;
+    left: 60px;
+    /* border: 1px solid red; */
+}
+
+.processcontentbox3 {
+
+    width: 300px;
+    height: 190px;
+    position: relative;
+    left: 60px;
+    /* border: 1px solid red; */
+}
+
+.processcontentbox3 p {
+    color: black;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    position: relative;
+    left: 0px;
+    padding-left: 40px;
+    /* border: 1px solid red; */
+
+}
+
+#process3line2 {
+    width: auto;
+    height: 80px;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    top: 20px;
+    left: 0;
+    padding-left: 15px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#line2-in-process3 {
+
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+.processcontentbox3 button {
+
+    padding: 10px 15px;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(42, 189, 152);
+    border: none;
+    background-color: white;
+    font-family: 'Jost', sans-serif;
+    position: relative;
+    top: 25px;
+    left: 70px;
+    cursor: pointer;
+    /* border: 1px solid red; */
+}
+
+.processcontentbox3 button:hover {
+
+    color: silver;
+
+}
+
+/* ..........................media query food cate........................ */
+@media (max-width:600px) {
+
+
+    .foodcategories {
+
+        width: 400px;
+        height: 2200px;
+        background-color: white;
+        margin-top: 60px;
+       
+
+    }
+
+    .header {
+
+        width: 86%;
+        height: 50px;
+        position: relative;
+        top: 70px;
+        left: 40px;
+       
+      
+
+
+    }
+
+    .header p {
+
+        font-size: 25px;
+        font-weight: 900;
+        font-family: 'Roboto', sans-serif;
+        padding-left: 0px;
+    }
+
+    .fooditems {
+        width: 93%;
+        height: 150px;
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0px;
+        position: relative;
+        top: 90px;
+        left: 5px;
+        
+
+
+
+    }
+
+    .food {
+        width: 100px;
+        height: 45px;
+        border-radius: 30px;
+        gap: 0px;
+        background-color: rgb(241, 245, 248);
+        color: black;
+        font-size: 15px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        border: none;
+        transition: 0.6s;
+        
+        
+
+
+    }
+
+    .food:hover {
+
+        color: white;
+        background-color: rgb(42, 189, 152);
+    }
+
+    .foodcate {
+
+        width: 93%;
+        height: 170px;
+        margin-left: 15px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        position: relative;
+        top: 90px;
+      
+
+    }
+
+    .food2 {
+        width: 100px;
+        height: 45px;
+        border-radius: 30px;
+        background-color: rgb(241, 245, 248);
+        color: black;
+        font-size: 15px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        border: none;
+        transition: 0.6s;
+      
+
+
+
+
+    }
+
+    .food2:hover {
+
+        color: white;
+        background-color: rgb(42, 189, 152);
+    }
+
+    .ourworksfood {
+        width: 300px;
+        height: 50px;
+        position: relative;
+        top: 140px;
+        left: 30px;
+        font-size: 25px;
+        font-weight: 900;
+        font-family: 'Roboto', sans-serif;
+        padding-left: 45px;
+        
+      
+    }
+
+    .workflowimgbox {
+
+        width: 94%;
+        height: 600px;
+        position: relative;
+        top: 170px;
+        left: 10px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+       
+    }
+
+    .step1process {
+        width: 360px;
+        height: 500px;
+        margin-top: 0px;
+       
+
+
+    }
+
+    .step1process img {
+
+        width: 300px;
+        height: 230px;
+        position: relative;
+        top: 0px;
+        left: 30px;
+        animation-name: step1img;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        transition: 0.8s;
+        margin-top: 18px;
+       
+
+
+
+    }
+
+    @keyframes step1img {
+
+        0% {
+            width: 300px;
+            height: 230px;
+            position: relative;
+            top: 0px;
+            left: 30px;
+            animation-name: step1img;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+
+        }
+
+        50% {
+            width: 300px;
+        height: 230px;
+            position: relative;
+            top: -20px;
+            left: 30px;
+            animation-name: step1img;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+
+        }
+
+        70% {
+            width: 300px;
+            height: 230px;
+            position: relative;
+            top: -20px;
+            left: 30px;
+            animation-name: step1img;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+
+        }
+
+        100% {
+
+            width: 300px;
+            height: 230px;
+            top: 0px;
+            position: relative;
+            left: 30px;
+            animation-name: step1img;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+
+
+        }
+    }
+
+    .step2process {
+        width: 360px;
+        height: 550px;
+     
+
+    }
+
+    .step2process img {
+
+        width: 300px;
+        height: 230px;
+        position: relative;
+        left: 30px;
+        animation-name: step2img;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        transition: 0.8s;
+        margin-top: 25px;
+       
+
+    }
+
+    @keyframes step2img {
+
+        0% {
+            width: 300px;
+            height: 250px;
+            position: relative;
+            top: 0px;
+            left: 30px;
+            animation-name: step1img;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+
+        }
+
+        50% {
+            width: 300px;
+            height: 250px;
+            position: relative;
+            top: -20px;
+            left: 30px;
+            animation-name: step1img;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+
+        }
+
+        70% {
+            width: 300px;
+            height: 250px;
+            position: relative;
+            top: -20px;
+            left: 30px;
+            animation-name: step1img;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+
+        }
+
+        100% {
+
+            width: 300px;
+            height: 250px;
+            top: 0px;
+            position: relative;
+            left: 30px;
+            animation-name: step1img;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+
+
+        }
+    }
+
+    .step3process {
+        width: 360px;
+        height: 550px;
+       
+
+    }
+
+    .step3process img {
+
+        width: 270px;
+            height: 250px;
+        position: relative;
+        top: 60px;
+        left: 40px;
+        animation-name: step3img;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        transition: 0.8s;
+        margin-top: -20px;
+      
+
+
+    }
+
+    @keyframes step3img {
+
+        0% {
+            width: 270px;
+            height: 250px;
+            position: relative;
+            top: 60px;
+            left: 40px;
+            animation-name: step1img;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            margin-top: -20px;
+
+        }
+
+        50% {
+            width: 270px;
+            height: 250px;
+            position: relative;
+            top: 30px;
+            left: 40px;
+            animation-name: step1img;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            margin-top: -20px;
+
+        }
+
+        70% {
+            width: 270px;
+            height: 250px;
+            position: relative;
+            top: 30px;
+            left: 40px;
+            animation-name: step1img;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            margin-top: -20px;
+
+        }
+
+        100% {
+
+            width: 270px;
+            height: 250px;
+            position: relative;
+            top: 60px;
+            left: 40px;
+            animation-name: step1img;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            margin-top: -20px;
+
+
+        }
+    }
+
+    .processcontentbox1 {
+
+        width: 340px;
+        height: 230px;
+        position: relative;
+        top: 10px;
+        left: 10px;
+       
+
+    }
+
+    .processcontentbox1 p {
+        color: black;
+        font-size: 23px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        position: relative;
+        left: 40px;
+    }
+
+    #processline2 {
+        width: auto;
+        height: 80px;
+        color: black;
+        font-size: 17px;
+        font-weight: 500;
+        position: relative;
+        top: 30px;
+        left: 10px;
+       
+
+    }
+
+    #line2-in-process {
+
+        color: black;
+        font-size: 17px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        top: 10px;
+    }
+
+    .processcontentbox1 button {
+
+        padding: 15px 20px;
+        font-size: 23px;
+        font-weight: 600;
+        color: rgb(42, 189, 152);
+        border: none;
+        background-color: white;
+        font-family: 'Jost', sans-serif;
+        position: relative;
+        top: 20px;
+        left: 65px;
+        cursor: pointer;
+    }
+
+    .processcontentbox1 button:hover {
+
+        color: silver;
+
+    }
+
+
+    .processcontentbox2 {
+
+        width: 340px;
+        height: 230px;
+        position: relative;
+        left: 10px;
+       
+
+    }
+
+    .processcontentbox2 p {
+        color: black;
+        font-size: 25px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        position: relative;
+        left: 0px;
+        padding-left: 60px;
+        margin-top: 15px;
+
+
+
+    }
+
+    #process2line2 {
+        width: auto;
+        height: 80px;
+        color: black;
+        font-size: 17px;
+        font-weight: 500;
+        position: relative;
+        top: 15px;
+        left: 0;
+        padding-left: 15px;
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    #line2-in-process2 {
+
+        color: black;
+        font-size: 17px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        top: 10px;
+        left: 7px;
+    }
+
+    .processcontentbox2 button {
+
+        padding: 15px 10px;
+        font-size: 20px;
+        font-weight: 600;
+        color: rgb(42, 189, 152);
+        border: none;
+        background-color: white;
+        font-family: 'Jost', sans-serif;
+        position: relative;
+        top: 40px;
+        left: 60px;
+        cursor: pointer;
+       
+
+    }
+
+    .processcontentbox2 button:hover {
+
+        color: silver;
+
+    }
+
+    .processcontent2 {
+
+        width: 300px;
+        height: 190px;
+        position: relative;
+        left: 60px;
+    }
+
+    .processcontentbox3 {
+        width: 340px;
+        height: 230px;
+        position: relative;
+        top: 70px;
+        left: 10px;
+       
+
+
+    }
+
+    .processcontentbox3 p {
+        color: black;
+        font-size: 25px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        position: relative;
+        left: 0px;
+        padding-left: 50px;
+       
+
+
+
+    }
+
+    #process3line2 {
+        width: auto;
+        height: 60px;
+        color: black;
+        font-size: 18px;
+        font-weight: 500;
+        position: relative;
+        top: 40px;
+        left: 0;
+        padding-left: 20px;
+        font-family: 'Poppins', sans-serif;
+
+
+    }
+
+    #line2-in-process3 {
+
+        color: black;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        top: 10px;
+        left: 30px;
+
+
+    }
+
+    .processcontentbox3 button {
+
+        padding: 15px 10px;
+        font-size: 22px;
+        font-weight: 600;
+        color: rgb(42, 189, 152);
+        border: none;
+        background-color: white;
+        font-family: 'Jost', sans-serif;
+        position: relative;
+        top: 50px;
+        left: 70px;
+        cursor: pointer;
+
+    }
+
+    .processcontentbox3 button:hover {
+
+        color: silver;
+
+    }
+
+}
+
+/* ...........................media query for ipad...... */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+
+    .foodcategories {
+
+        width: 765px;
+        height: 2700px;
+        background-color: white;
+        /* border: 1px solid blueviolet; */
+       
+
+    }
+
+    .header {
+
+        width: 90%;
+        height: 50px;
+        position: relative;
+        top: 70px;
+        left: 40px;
+        /* border: 1px solid red; */
+    }
+
+    .header p {
+
+        font-size: 30px;
+        font-weight: 900;
+        font-family: 'Roboto', sans-serif;
+        padding-left: 150px;
+       
+    }
+
+    .fooditems {
+        width: 100%;
+        height:170px;
+        margin-left: 0px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 0px;
+        position: relative;
+        top: 90px;
+        left: 0px;
+        /* padding-left: 0px; */
+        /* border: 1px solid rebeccapurple; */
+    }
+
+    .food {
+        width: 100px;
+        height: 45px;
+        border-radius: 30px;
+        gap: 10px;
+        background-color: rgb(241, 245, 248);
+        color: black;
+        font-size: 15px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        border: none;
+        padding-top: 10px;
+        transition: 0.6s;
+        position: relative;
+        left: 20px;
+        /* border: 1px solid red; */
+        
+        
+
+
+    }
+
+    .food:hover {
+
+        color: white;
+        background-color: rgb(42, 189, 152);
+    }
+
+    .foodcate {
+
+        width: 100%;
+        height: 170px;
+        margin-left: 0px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 7px;
+        position: relative;
+        left: 20px;
+        top: 90px;
+        /* border: 1px solid green; */
+        padding-left: 0px;
+      
+
+    }
+
+    .food2 {
+        width: 100px;
+        height: 45px;
+        border-radius: 30px;
+        background-color: rgb(241, 245, 248);
+        color: black;
+        font-size: 15px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        border: none;
+        transition: 0.6s;
+        /* border: 1px solid red; */
+      
+
+
+
+
+    }
+
+    .food2:hover {
+
+        color: white;
+        background-color: rgb(42, 189, 152);
+    }
+
+    .ourworksfood {
+        width: 70%;
+        height: 60px;
+        position: relative;
+        top: 140px;
+        left: 160px;
+        font-size: 35px;
+        font-weight: 900;
+        letter-spacing: 1px;
+        font-family: 'Roboto', sans-serif;
+        padding-left: 0px;
+        /* border: 1px solid rgb(255, 0, 179); */
+        
+      
+    }
+
+    .workflowimgbox {
+
+        width: 98%;
+        height: 2040px;
+        position: relative;
+        top: 170px;
+        left: 0px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* border: 1px solid gold;
+        */
+    }
+
+    .step1process {
+        width: 99%;
+        height: 650px;
+        margin-top: 0px;
+        
+       
+
+
+    }
+
+    .step1process img {
+
+        width:500px;
+        height: 350px;
+        position: relative;
+        top: 0px;
+        left: 100px;
+        animation-name: step1img;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        transition: 0.8s;
+        margin-top: 18px;
+       
+       
+
+
+
+    }
+
+    @keyframes step1img {
+
+        0% {
+            width:500px;
+        height: 350px;
+            position: relative;
+            top: 0px;
+            left: 100px;
+            animation-name: step1img;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+
+        }
+
+        50% {
+            width:500px;
+            height: 350px;
+            position: relative;
+            top: -20px;
+            left: 100px;
+            animation-name: step1img;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+
+        }
+
+        70% {
+            width:500px;
+            height: 350px;
+            position: relative;
+            top: -20px;
+            left: 100px;
+            animation-name: step1img;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+
+        }
+
+        100% {
+
+            width:500px;
+            height: 350px;
+            top: 0px;
+            position: relative;
+            left: 100px;
+            animation-name: step1img;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+
+
+        }
+    }
+
+    .step2process {
+        width: 99%;
+        height: 650px;
+        
+        position: relative;
+        top: 0px;
+     
+
+    }
+
+    .step2process img {
+
+        width: 500px;
+        height: 350px;
+        position: relative;
+        left: 100px;
+        animation-name: step2img;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        transition: 0.8s;
+        margin-top: 25px;
+       
+       
+
+    }
+
+    @keyframes step2img {
+
+        0% {
+            width: 500px;
+            height: 350px;
+            position: relative;
+            top: 0px;
+            left: 100px;
+            animation-name: step1img;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+
+        }
+
+        50% {
+            width: 500px;
+        height: 350px;
+            position: relative;
+            top: -20px;
+            left: 100px;
+            animation-name: step1img;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+
+        }
+
+        70% {
+            width: 500px;
+        height: 350px;
+            position: relative;
+            top: -20px;
+            left: 100px;
+            animation-name: step1img;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+
+        }
+
+        100% {
+
+            width: 500px;
+            height: 350px;
+            top: 0px;
+            position: relative;
+            left: 100px;
+            animation-name: step1img;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+
+
+        }
+    }
+
+    .step3process {
+        width: 99%;
+        height: 670px;
+        position: relative;
+        top: 0px;
+        /* border: 1px solid red; */
+       
+
+    }
+
+    .step3process img {
+
+        width: 500px;
+        height: 350px;
+        position: relative;
+        top: 60px;
+        left: 100px;
+        animation-name: step3img;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        transition: 0.8s;
+        margin-top: -20px;
+       
+      
+
+
+    }
+
+    @keyframes step3img {
+
+        0% {
+            width: 500px;
+            height: 350px;
+            position: relative;
+            top: 60px;
+            left: 100px;
+            animation-name: step1img;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            margin-top: -20px;
+
+        }
+
+        50% {
+            width: 500px;
+            height: 350px;
+            position: relative;
+            top: 30px;
+            left: 100px;
+            animation-name: step1img;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            margin-top: -20px;
+
+        }
+
+        70% {
+            width: 500px;
+        height: 350px;
+            position: relative;
+            top: 30px;
+            left: 100px;
+            animation-name: step1img;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            margin-top: -20px;
+
+        }
+
+        100% {
+
+            width: 500px;
+        height: 350px;
+            position: relative;
+            top: 60px;
+            left: 100px;
+            animation-name: step1img;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            margin-top: -20px;
+
+
+        }
+    }
+
+    .processcontentbox1 {
+
+        width: 500px;
+        height: 250px;
+        position: relative;
+        top: 10px;
+        left: 100px;
+      
+       
+
+    }
+
+    .processcontentbox1 p {
+        color: black;
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        position: relative;
+        left: 70px;
+    }
+
+    #processline2 {
+        width: auto;
+        height: 80px;
+        color: black;
+        font-size: 20px;
+        font-weight: 500;
+        position: relative;
+        top: 30px;
+        left: 50px;
+       
+
+    }
+
+    #line2-in-process {
+
+        color: black;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        top: 15px;
+    }
+
+    .processcontentbox1 button {
+
+        padding: 15px 20px;
+        font-size: 30px;
+        font-weight: 600;
+        color: rgb(42, 189, 152);
+        border: none;
+        background-color: white;
+        font-family: 'Jost', sans-serif;
+        position: relative;
+        top: 40px;
+        left: 120px;
+        cursor: pointer;
+    }
+
+    .processcontentbox1 button:hover {
+
+        color: silver;
+
+    }
+
+
+    .processcontentbox2 {
+
+        width: 500px;
+        height: 250px;
+        position: relative;
+        left: 100px;
+      
+
+    }
+
+    .processcontentbox2 p {
+        color: black;
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        position: relative;
+        left: 0px;
+        padding-left: 110px;
+        margin-top: 15px;
+
+
+
+    }
+
+    #process2line2 {
+        width: auto;
+        height: 80px;
+        color: black;
+        font-size: 22px;
+        font-weight: 500;
+        position: relative;
+        top: 15px;
+        left: 0;
+        padding-left: 50px;
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    #line2-in-process2 {
+
+        color: black;
+        font-size: 22px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        top: 10px;
+        left: 20px;
+    }
+
+    .processcontentbox2 button {
+
+        padding: 15px 10px;
+        font-size: 30px;
+        font-weight: 600;
+        color: rgb(42, 189, 152);
+        border: none;
+        background-color: white;
+        font-family: 'Jost', sans-serif;
+        position: relative;
+        top: 20px;
+        left: 100px;
+        cursor: pointer;
+       
+
+    }
+
+    .processcontentbox2 button:hover {
+
+        color: silver;
+
+    }
+
+    .processcontent2 {
+
+        width: 300px;
+        height: 190px;
+        position: relative;
+        left: 60px;
+    }
+
+    .processcontentbox3 {
+        width: 500px;
+        height: 230px;
+        position: relative;
+        top: 100px;
+        left: 100px;
+        /* border: 1px solid red; */
+       
+       
+
+
+    }
+
+    .processcontentbox3 p {
+        color: black;
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        position: relative;
+        left: 0px;
+        padding-left: 80px;
+       
+
+
+
+    }
+
+    #process3line2 {
+        width: auto;
+        height: 60px;
+        color: black;
+        font-size: 22px;
+        font-weight: 500;
+        position: relative;
+        top: 30px;
+        left: 0;
+        padding-left: 40px;
+        font-family: 'Poppins', sans-serif;
+
+
+    }
+
+    #line2-in-process3 {
+
+        color: black;
+        font-size: 22px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        top: 10px;
+        left: 60px;
+
+
+    }
+
+    .processcontentbox3 button {
+
+        padding: 15px 10px;
+        font-size: 30px;
+        font-weight: 600;
+        color: rgb(42, 189, 152);
+        border: none;
+        background-color: white;
+        font-family: 'Jost', sans-serif;
+        position: relative;
+        top: 50px;
+        left: 120px;
+        cursor: pointer;
+
+    }
+
+    .processcontentbox3 button:hover {
+
+        color: silver;
+
+    }
+
+
+
+}
+
+/* ............................ourdelivery-steps-pg.................................. */
+.ourdelivery-steps {
+
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+
+
+}
+
+.imagewall {
+
+    width: 460px;
+    height: 460px;
+    background-color: rgb(249, 247, 230);
+    position: relative;
+    top: 140px;
+    left: 10px;
+    display: grid;
+
+
+}
+
+.imagewall img {
+
+    width: 500px;
+    height: 430px;
+    position: absolute;
+    top: -80px;
+    animation-name: boy2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transition: 0.8s;
+    filter: contrast(120%);
+}
+
+@keyframes boy2 {
+
+    0% {
+
+        width: 500px;
+        height: 430px;
+        position: absolute;
+        top: -80px;
+        animation-name: boy2;
+        animation-duration: 0.2;
+        animation-iteration-count: infinite;
+        transition: 0.9s;
+
+    }
+
+    50% {
+
+        width: 500px;
+        height: 430px;
+        position: absolute;
+        top: -130px;
+        animation-name: boy2;
+        animation-duration: 0.2;
+        animation-iteration-count: infinite;
+
+    }
+
+    70% {
+
+        width: 500px;
+        height: 430px;
+        position: absolute;
+        top: -130px;
+        animation-name: boy2;
+        animation-duration: 0.2;
+        animation-iteration-count: infinite;
+
+    }
+
+    100% {
+
+        width: 500px;
+        height: 430px;
+        position: absolute;
+        top: -80px;
+        animation-name: boy2;
+        animation-duration: 0.2;
+        animation-iteration-count: infinite;
+
+    }
+}
+
+.contentbox-delivery {
+
+    width: 600px;
+    height: 500px;
+    position: relative;
+    top: 30px;
+
+}
+
+.contentbox-delivery p {
+
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 60px;
+
+}
+
+.stepofdelivary {
+
+    width: 500px;
+    height: 250px;
+    position: relative;
+    top: 60px;
+    left: 50px;
+
+}
+
+.stepofdelivary p {
+
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+#step-d1 {
+    padding-bottom: 30px;
+
+}
+
+#numberd {
+
+    font-size: 45px;
+    font-weight: 300;
+    color: rgb(42, 189, 152);
+    padding-right: 30px;
+
+}
+
+.contentbox-delivery button {
+    width: 150px;
+    height: 50px;
+    position: relative;
+    top: 80px;
+    left: 200px;
+    border: none;
+    color: white;
+    background-color: rgb(42, 189, 152);
+    border-radius: 35px;
+    box-shadow: 0px 3px 6px 0px rgb(167, 167, 168);
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.contentbox-delivery button:hover {
+
+    color: white;
+    background-color: black;
+}
+.contentbox-delivery i{
+
+    position: relative;
+    top: 0px;
+    transition: 3s;
+}
+.contentbox-delivery i:hover{
+
+    position: relative;
+    top: -17px;
+}
+
+/* ...........................media query-ourdelivery-pg....................... */
+
+@media (max-width:600px) {
+
+
+    .ourdelivery-steps {
+
+        width: 400px;
+        height: 900px;
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+       
+
+    }
+
+    .imagewall {
+
+        width: 370px;
+        height: 300px;
+        background-color: rgb(249, 247, 230);
+        position: relative;
+        top: 80px;
+        left: 15px;
+        display: grid;
+       
+
+
+
+    }
+
+    .imagewall img {
+
+        width: 350px;
+        height: 270px;
+        position: absolute;
+        top: -60px;
+        animation-name: boy2;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        transition: 0.8s;
+        filter: contrast(120%);
+        margin-top: 60px;
+       
+    }
+
+    @keyframes boy2 {
+
+        0% {
+
+            width: 350px;
+            height: 270px;
+            position: absolute;
+            top: -60px;
+            animation-name: boy2;
+            animation-duration: 0.2;
+            animation-iteration-count: infinite;
+            transition: 0.9s;
+
+        }
+
+        50% {
+
+            width: 350px;
+            height: 270px;
+            position: absolute;
+            top: -130px;
+            animation-name: boy2;
+            animation-duration: 0.2;
+            animation-iteration-count: infinite;
+
+        }
+
+        70% {
+
+            width: 350px;
+            height: 270px;
+            position: absolute;
+            top: -130px;
+            animation-name: boy2;
+            animation-duration: 0.2;
+            animation-iteration-count: infinite;
+
+        }
+
+        100% {
+
+            width: 350px;
+            height: 270px;
+            position: absolute;
+            top: -60px;
+            animation-name: boy2;
+            animation-duration: 0.2;
+            animation-iteration-count: infinite;
+
+        }
+    }
+
+    .contentbox-delivery {
+
+        width: 380px;
+        height: 420px;
+        position: relative;
+        top: 50px;
+        left: 5px;
+        
+
+
+    }
+
+    .contentbox-delivery p {
+
+        font-size: 24px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        padding-left: 30px;
+       
+
+
+    }
+
+    .stepofdelivary {
+
+        width: 340px;
+        height: 220px;
+        position: relative;
+        top: 40px;
+        left: 10px;
+       
+
+
+    }
+
+    .stepofdelivary p {
+
+        font-size: 19px;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 20px;
+
+    }
+
+    #step-d1 {
+        padding-bottom: 10px;
+
+    }
+
+    #numberd {
+
+        font-size: 30px;
+        font-weight: 300;
+        color: rgb(42, 189, 152);
+        padding-right: 20px;
+
+    }
+
+    .contentbox-delivery button {
+        width: 170px;
+        height: 60px;
+        position: relative;
+        top: 60px;
+        left: 90px;
+        border: none;
+        color: white;
+        background-color: rgb(42, 189, 152);
+        border-radius: 35px;
+        box-shadow: 0px 3px 6px 0px rgb(167, 167, 168);
+        font-family: 'Jost', sans-serif;
+        font-size: 20px;
+        cursor: pointer;
+
+    }
+
+    .contentbox-delivery button:hover {
+
+        color: white;
+        background-color: black;
+    }
+
+
+
+}
+/* .....................media query for ipad............... */
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+
+    .ourdelivery-steps {
+
+        width: 100%;
+        height: 1050px;
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* border: 1px solid rgb(48, 18, 200); */
+       
+
+    }
+
+    .imagewall {
+
+        width: 85%;
+        height: 400px;
+        background-color: rgb(249, 247, 230);
+        position: relative;
+        top: 80px;
+        left: 55px;
+        display: grid;
+       
+
+
+
+    }
+
+    .imagewall img {
+
+        width: 500px;
+        height: 350px;
+        position: absolute;
+        top: -60px;
+        animation-name: boy2;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        transition: 0.8s;
+        filter: contrast(120%);
+        margin-top: 60px;
+       
+    }
+
+    @keyframes boy2 {
+
+        0% {
+
+            width: 500px;
+        height: 350px;
+            position: absolute;
+            top: -60px;
+            animation-name: boy2;
+            animation-duration: 0.2;
+            animation-iteration-count: infinite;
+            transition: 0.9s;
+
+        }
+
+        50% {
+
+            width: 500px;
+            height: 350px;
+            position: absolute;
+            top: -130px;
+            animation-name: boy2;
+            animation-duration: 0.2;
+            animation-iteration-count: infinite;
+
+        }
+
+        70% {
+
+            width: 500px;
+        height: 350px;
+            position: absolute;
+            top: -130px;
+            animation-name: boy2;
+            animation-duration: 0.2;
+            animation-iteration-count: infinite;
+
+        }
+
+        100% {
+
+            width: 500px;
+            height: 350px;
+            position: absolute;
+            top: -60px;
+            animation-name: boy2;
+            animation-duration: 0.2;
+            animation-iteration-count: infinite;
+
+        }
+    }
+
+    .contentbox-delivery {
+
+        width: 100%;
+        height: 500px;
+        position: relative;
+        top: 50px;
+        left: 0px;
+        /* border: 1px solid red; */
+        
+
+
+    }
+
+    .contentbox-delivery p {
+
+        font-size: 30px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        padding-left: 180px;
+        /* border: 1px solid red; */
+       
+
+
+    }
+
+    .stepofdelivary {
+
+        width: 80%;
+        height: 260px;
+        position: relative;
+        top: 40px;
+        left:10px;
+        /* border: 1px solid green; */
+       
+
+
+    }
+
+    .stepofdelivary p {
+
+        font-size: 23px;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 20px;
+        /* border: 1px solid rebeccapurple; */
+        width: 390px;
+        
+
+    }
+
+    #step-d1 {
+        padding-bottom: 20px;
+
+    }
+
+    #numberd {
+
+        font-size: 35px;
+        font-weight: 300;
+        color: rgb(42, 189, 152);
+        padding-left: 10px;
+
+    }
+
+    .contentbox-delivery button {
+        width: 230px;
+        height: 70px;
+        position: relative;
+        top: 30px;
+        left: 240px;
+        border: none;
+        color: white;
+        background-color: rgb(42, 189, 152);
+        border-radius: 35px;
+        box-shadow: 0px 3px 6px 0px rgb(167, 167, 168);
+        font-family: 'Jost', sans-serif;
+        font-size: 30px;
+        cursor: pointer;
+
+    }
+
+    .contentbox-delivery button:hover {
+
+        color: white;
+        background-color: black;
+    }
+
+
+
+}
+
+
+
+
+
+/* .......................................order-page..................... */
+.order-page {
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orderpagewall {
+
+    width: 1200px;
+    height: 400px;
+    background-color: rgb(249, 247, 230);
+    box-shadow: 0px 5px 5px 0px rgb(167, 167, 168);
+    border-radius: 50px;
+    position: relative;
+
+}
+
+.orderpagewall img {
+    width: 570px;
+    height: 420px;
+    position: relative;
+    top: -70px;
+    left: 620px;
+    filter: contrast(120%);
+    animation-name: boy3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transition: 0.8s;
+    animation-delay: 7s;
+}
+
+@keyframes boy3 {
+
+    0% {
+        width: 550px;
+        height: 400px;
+        position: relative;
+        top: -70px;
+        left: 620px;
+        filter: contrast(120%);
+        animation-name: boy3;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        transition: 0.8s;
+    }
+
+    50% {
+
+        width: 570px;
+        height: 420px;
+        position: relative;
+        top: -70px;
+        left: 620px;
+        filter: contrast(120%);
+        animation-name: boy3;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        transition: 0.8s;
+    }
+
+    70% {
+        width: 570px;
+        height: 420px;
+        position: relative;
+        top: -70px;
+        left: 620px;
+        filter: contrast(120%);
+        animation-name: boy3;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        transition: 0.8s;
+    }
+
+    100% {
+        width: 550px;
+        height: 400px;
+        position: relative;
+        top: -70px;
+        left: 620px;
+        filter: contrast(120%);
+        animation-name: boy3;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        transition: 0.8s;
+    }
+}
+
+.content-orderpage p {
+
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+
+}
+
+#content-line2 {
+
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 170px;
+    color: rgb(109, 107, 107);
+}
+
+.content-orderpage button {
+
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 280px;
+    left: 40px;
+    font-size: 15px;
+    font-family: 'Jost', sans-serif;
+    border: none;
+    color: white;
+    background-color: rgb(42, 189, 152);
+    border-radius: 35px;
+    box-shadow: 0px 3px 6px 0px rgb(167, 167, 168);
+}
+.content-orderpage button:hover{
+
+    color: white;
+    background-color: black;
+}
+.content-orderpage i{
+
+    position: relative;
+    top: 0px;
+    transition: 3s;
+}
+.content-orderpage i:hover{
+
+    position: relative;
+    top: -17px;
+}
+
+
+/* .......................order-pg-media query......................... */
+
+@media (max-width:600px) {
+
+
+
+    .order-page {
+
+        width: 400px;
+        height: 770px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: normal;
+        align-items: normal;
+        
+    }
+
+    .orderpagewall {
+
+        width: 360px;
+        height: 720px;
+        background-color: rgb(249, 247, 230);
+        box-shadow: 0px 5px 5px 0px rgb(167, 167, 168);
+        border-radius: 50px;
+        position: relative;
+        top: 20px;
+        left: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      
+
+    }
+
+    .orderpagewall img {
+        width: 290px;
+        height: 230px;
+        position: relative;
+        top: 370px;
+        left: 20px;
+        filter: contrast(120%);
+        animation-name: boy3;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        transition: 0.8s;
+        animation-delay: 7s;
+       
+
+    }
+
+    @keyframes boy3 {
+
+        0% {
+
+            width: 290px;
+            height: 230px;
+            position: relative;
+            top: 370px;
+            left: 20px;
+            filter: contrast(120%);
+            animation-name: boy3;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            transition: 0.8s;
+
+        }
+
+        50% {
+
+            width: 250px;
+            height: 200px;
+            position: relative;
+            top: 370px;
+            left: 20px;
+            filter: contrast(120%);
+            animation-name: boy3;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            transition: 0.8s;
+
+        }
+
+        70% {
+
+            width: 250px;
+            height: 200px;
+            position: relative;
+            top: 370px;
+            left: 20px;
+            filter: contrast(120%);
+            animation-name: boy3;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            transition: 0.8s;
+
+        }
+
+        100% {
+            width: 290px;
+            height: 230px;
+            position: relative;
+            top: 370px;
+            left: 20px;
+            filter: contrast(120%);
+            animation-name: boy3;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            transition: 0.8s;
+        }
+    }
+
+    .content-orderpage p {
+
+        position: absolute;
+        top: 40px;
+        left: 35px;
+        font-size: 29px;
+        font-weight: 600;
+        font-family: 'Jost', sans-serif;
+       
+
+    }
+
+    #content-line2 {
+
+        font-size: 19px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        position: absolute;
+        top: 160px;
+        left: 10px;
+        color: rgb(109, 107, 107);
+    }
+
+    .content-orderpage button {
+
+        width: 180px;
+        height: 60px;
+        position: absolute;
+        top: 620px;
+        left: 70px;
+        font-size: 20px;
+        font-family: 'Jost', sans-serif;
+        border: none;
+        color: white;
+        background-color: rgb(42, 189, 152);
+        border-radius: 35px;
+        box-shadow: 0px 3px 6px 0px rgb(167, 167, 168);
+    }
+}
+
+/* ...................media query for ipad............... */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+
+    .order-page {
+
+        width: 100%;
+        height: 770px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: normal;
+        align-items: normal;
+        
+        
+    }
+
+    .orderpagewall {
+
+        width: 650px;
+        height: 750px;
+        background-color: rgb(249, 247, 230);
+        box-shadow: 0px 5px 5px 0px rgb(167, 167, 168);
+        border-radius: 50px;
+        position: relative;
+        top: 10px;
+        left: 60px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      
+
+    }
+
+    .orderpagewall img {
+        width: 360px;
+        height: 250px;
+        position: relative;
+        top: 370px;
+        left: 70px;
+        filter: contrast(120%);
+        animation-name: boy3;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        transition: 0.8s;
+        animation-delay: 7s;
+       
+
+    }
+
+    @keyframes boy3 {
+
+        0% {
+
+            width: 360px;
+            height: 250px;
+            position: relative;
+            top: 370px;
+            left: 70px;
+            filter: contrast(120%);
+            animation-name: boy3;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            transition: 0.8s;
+
+        }
+
+        50% {
+
+            width: 250px;
+            height: 200px;
+            position: relative;
+            top: 370px;
+            left: 70px;
+            filter: contrast(120%);
+            animation-name: boy3;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            transition: 0.8s;
+
+        }
+
+        70% {
+
+            width: 250px;
+            height: 200px;
+            position: relative;
+            top: 370px;
+            left: 70px;
+            filter: contrast(120%);
+            animation-name: boy3;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            transition: 0.8s;
+
+        }
+
+        100% {
+            width: 360px;
+            height: 250px;
+            position: relative;
+            top: 370px;
+            left: 70px;
+            filter: contrast(120%);
+            animation-name: boy3;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            transition: 0.8s;
+        }
+    }
+
+    .content-orderpage p {
+
+        position: absolute;
+        top: 40px;
+        left: 35px;
+        font-size: 35px;
+        font-weight: 600;
+        font-family: 'Jost', sans-serif;
+        width: 550px;
+
+       
+
+    }
+
+    #content-line2 {
+
+        font-size: 23px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        position: absolute;
+        top: 160px;
+        left: 40px;
+        color: rgb(109, 107, 107);
+        width: 580px;
+        height: 200px;
+    }
+
+    .content-orderpage button {
+
+        width: 200px;
+        height: 70px;
+        position: absolute;
+        top: 670px;
+        left: 200px;
+        font-size: 25px;
+        font-family: 'Jost', sans-serif;
+        border: none;
+        color: white;
+        background-color: rgb(42, 189, 152);
+        border-radius: 35px;
+        box-shadow: 0px 3px 6px 0px rgb(167, 167, 168);
+    }
+}
+
+
+
+
+
+
+/* ...............................footer-pg.................. */
+.footer {
+
+    width: 100%;
+    height: 60px;
+    background-color: darkslategray;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+
+
+}
+
+.footer1 {
+    color: azure;
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+
+#footer1-line2 {
+
+    color: wheat;
+}
+
+.footer2 {
+
+    color: wheat;
+    padding-top: 20px;
+    padding-left: 80px;
+
+}
+
+#icon-footer {
+
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+    height: 20px;
+    margin-left: 150px;
+    margin-top: 15px;
+    color: wheat;
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+/* .................media query-footer.................. */
+
+@media (max-width:600px) {
+
+
+    .footer {
+
+        width: 400px;
+        height: 170px;
+        background-color: darkslategray;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .footer1 {
+        color: azure;
+        padding-top: 20px;
+        padding-left: 10px;
+        font-size: 20px;
+
+    }
+
+    #footer1-line2 {
+        font-size: 20px;
+        color: wheat;
+    }
+
+    .footer2 {
+
+        color: wheat;
+        padding-top: 20px;
+        padding-left: 10px;
+        font-size: 20px;
+
+    }
+
+    #icon-footer {
+
+        display: flex;
+        flex-direction: row;
+        width: 120px;
+        height: 20px;
+        margin-left: 10px;
+        margin-top: 15px;
+        color: wheat;
+        font-size: 20px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+    }
+
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+
+    .footer {
+
+        width: 768px;
+        height: 70px;
+        background-color: darkslategray;
+        display: flex;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+}
